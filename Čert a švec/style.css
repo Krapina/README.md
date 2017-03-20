@@ -1,0 +1,60 @@
+h1 {
+    font-size:140px;
+    text-align: center;
+    color: brown;
+    height: 460px;
+    width: 1100px;
+    background: url('https://img.obrazky.cz/?url=9604ab27b16e54ca&size=2');
+    font-family: Helvetica;
+            }
+    
+    h2 {
+        color: brown;
+        font-family: Helvetica;
+        text-decoration: underline;
+        text-transform: uppercase;
+        }
+    
+    div {
+       width: 1100px;
+       text-align: justify; 
+        }
+    
+     
+    .zanr {
+        font-size:50;
+        color: brown;
+        font-weight: bold}
+        
+    .autor, .zdroj {
+        font-size: 25px;
+        font-style: italic;
+        }    
+        
+    section {
+        background: burlywood;
+        font-size: 25px;
+        }
+        
+    footer {
+        font-size:40;
+        color: brown;
+        font-weight: bold;
+        float: right;
+        font-family: Helvetica;
+        line-height: 1.5;
+        }
+        
+    i {
+        color: firebrick;    
+        }
+        
+    a {
+        text-decoration: none;
+        }
+        
+    section, .pytel, .soutez, .zaver {
+        border: 3px solid red;
+        padding: 10px;
+        margin: 10px;
+        }
