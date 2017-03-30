@@ -4,41 +4,44 @@
   <title>O chytrém ševci a hloupém čertovi</title>
   <meta charset="utf-8">
   <style>
-     h1 {
+   h1 {
     font-size:140px;
     text-align: center;
-    color: brown;
+    color: darkred;
     height: 460px;
     width: 1100px;
     background: url('https://img.obrazky.cz/?url=9604ab27b16e54ca&size=2');
     font-family: Helvetica;
             }
-    
+      
     h2 {
-        color: brown;
+        color: darkred;
         font-family: Helvetica;
         text-decoration: underline;
         text-transform: uppercase;
         }
     
     div {
-       width: 1100px;
-       text-align: justify; 
+       width: 1150px;
+       text-align: center; 
         }
     
      
     .zanr {
-        font-size:50;
-        color: brown;
+        font-size:135;
+        text-align: center;
+        color: black;
         font-weight: bold}
         
     .autor, .zdroj {
-        font-size: 25px;
+        text-align: center;
+        color: black;
+        font-size: 20px;
         font-style: italic;
         }    
         
     section {
-        background: burlywood;
+        background: bisque;
         font-size: 25px;
         }
         
@@ -60,7 +63,8 @@
         }
         
     section, .pytel, .soutez, .zaver {
-        border: 3px solid red;
+        text-align: center;
+        border: 3px solid darkred;
         padding: 10px;
         margin: 10px;
         }
@@ -70,9 +74,9 @@
   <div class="content">
     <header>
       <p class="zanr">Pohádka</p>
-    
+    <section id="nadpis">
       <h1>O chytrém ševci a hloupém čertovi</h1>
-    
+    </section>
       <p class="autor">autor původního textu: <span class="name">Miloš Novotný</span></p>
       
       <p class="zdroj">adaptováno z textu dostupného na <a href="http://dum.rvp.cz/materialy/pohadka-o-chytrem-sevci-a-hloupem-certovi.html">RVP.cz</a></p>
@@ -143,9 +147,10 @@
     </section>
 
     <footer>
-      <p>Konec</p>
+    <section id="konec">
+      <h4>Konec</h4>
+      </section>
     </footer>
 
   </div>
 </body>
-</html>
