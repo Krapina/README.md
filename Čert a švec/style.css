@@ -1,38 +1,46 @@
-h1 {
-    font-size:140px;
-    text-align: center;
-    color: brown;
-    height: 460px;
-    width: 1100px;
-    background: url('https://img.obrazky.cz/?url=9604ab27b16e54ca&size=2');
+.content {
+    margin: auto;
+  }
+  
+   h1 {
+    font-size: 50px;
+    text-align: top;
+    color: darkred;
     font-family: Helvetica;
             }
-    
+      
     h2 {
-        color: brown;
+        color: darkred;
         font-family: Helvetica;
         text-decoration: underline;
         text-transform: uppercase;
         }
     
     div {
-       width: 1100px;
-       text-align: justify; 
+       width: 1150px;
+       text-align: center; 
         }
     
      
     .zanr {
-        font-size:50;
-        color: brown;
+        font-size:135;
+        text-align: center;
+        color: black;
         font-weight: bold}
         
     .autor, .zdroj {
-        font-size: 25px;
+        color: black;
+        font-size: 20px;
         font-style: italic;
+        background: bisque;
+        border: 3px solid darkred;
+        padding: 10px;
+        margin: 60px;
+
         }    
         
     section {
-        background: burlywood;
+        background: bisque;
         font-size: 25px;
         }
         
@@ -40,9 +48,10 @@ h1 {
         font-size:40;
         color: brown;
         font-weight: bold;
-        float: right;
         font-family: Helvetica;
         line-height: 1.5;
+        padding: 10px;
+        margin: 40px;
         }
         
     i {
@@ -52,9 +61,14 @@ h1 {
     a {
         text-decoration: none;
         }
+
+    body {
+        background: url('https://www.spreadshirt.com/image-server/v1/designs/12346806,width=178,height=178/cute-devil.png');
+    }
         
     section, .pytel, .soutez, .zaver {
-        border: 3px solid red;
+        text-align: center;
+        border: 3px solid darkred;
         padding: 10px;
         margin: 10px;
         }
